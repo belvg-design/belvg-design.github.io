@@ -34,12 +34,12 @@
         justify-self: center;
         box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
         margin-bottom: 25px;
+        margin-right: 25px;
     }
     
     .sidebar {
         background: #FFFFFF;
         border-radius: 14px;
-        width: 389px;
         align-self: center;
         box-sizing: border-box;
         display: flex;
@@ -47,7 +47,6 @@
         justify-self: center;
         box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
         margin-bottom: 25px;
-        margin-left: 25px;
         text-align: center;
         align-items: center;
         justify-content: center;
