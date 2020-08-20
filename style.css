@@ -1,123 +1,139 @@
-    /* CSS files add styling rules to your content */
-    
-    * {
-        margin: 0;
-        font-family: Roboto;
-        font-style: normal;
-        text-align: center;
-    }
-    
-    h1 {
-        text-align: center;
-        margin: 35px 0 0 0;
-    }
-    
-    body {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        margin: 14vh;
-        background: #F9F9F9;
-        position: relative;
-        justify-content: center;
-        height: 100%;
-    }
-    
-    main {
-        background: #FFFFFF;
-        border-radius: 14px;
-        width: 780px;
-        height: 745px;
-        align-self: center;
-        box-sizing: border-box;
-        display: flex;
-        justify-self: center;
-        box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
-        margin-bottom: 25px;
-        margin-right: 25px;
-    }
-    
-    .sidebar {
-        background: #FFFFFF;
-        border-radius: 14px;
-        box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
-        margin-bottom: 25px;
-        max-height: 745px;
-    }
-    
-    .buttons {
-        flex-direction: row;
-    }
-    
-    div.shadow {
-        display: none;
-        position: absolute;
-        z-index: -1;
-        width: 50vw;
-        height: 20vw;
-        align-self: center;
-        background: #FFFFFF;
-        box-shadow: 0px 4px 200px rgba(0, 0, 0, 0.14);
-        border-radius: 14px;
-    }
-    
-    .image-border {
-        border-radius: 14px 14px 0px 0px;
-    }
-    
-    .button {
-        background: #FF3366;
-        border-radius: 50px;
-        border: none;
-        align-items: flex-start;
-        width: 250px;
-        height: 50px;
-        box-sizing: border-box;
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 150%;
-        color: #FFFFFF;
-        outline: none;
-        cursor: pointer;
-        transition-duration: 0.2s;
-        margin-top: 20px;
-        margin-bottom: 26px;
-    }
-    
-    .button[class*=outline] {
-        border: 1px solid #FF3366;
-        background: none;
-        color: #FF3366;
-    }
-    
-    .button:hover {
-        background: #D92B57;
-    }
-    
-    .button[class*=outline]:hover {
-        background: none;
-    }
-    
-    .description {
-        font-weight: 300;
-        font-size: 18px;
-        line-height: 150%;
-        text-align: center;
-        color: #666666;
-        margin-top: 20px;
-        margin-right: 57px;
-        margin-left: 57px;
-    }
-    
-    .heading {
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 150%;
-        text-align: center;
-        color: black;
-    }
-    
-    .buttons {
-        display: flex;
-        justify-content: space-between;
-    }
+        /* CSS files add styling rules to your content */
+        
+        * {
+            margin: 0;
+            font-family: Roboto;
+            font-style: normal;
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 35px 0 0 0;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            background: #F9F9F9;
+            vertical-align: middle;
+        }
+        
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 100px;
+        }
+        
+        aside>div.sidebar>img {
+            width: 100%;
+        }
+        
+        main {
+            background: #FFFFFF;
+            border-radius: 14px;
+            width: 100%;
+            height: 760px;
+            align-self: center;
+            box-sizing: border-box;
+            display: flex;
+            justify-self: center;
+            box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
+            margin-bottom: 25px;
+            max-width: 780px;
+        }
+        
+        .sidebar {
+            background: #FFFFFF;
+            border-radius: 14px;
+            box-shadow: 0px 50px 200px rgba(0, 0, 0, 0.07);
+            margin-bottom: 25px;
+            width: 100%;
+        }
+        
+        .buttons {
+            flex-direction: row;
+        }
+        
+        div.shadow {
+            display: none;
+            position: absolute;
+            z-index: -1;
+            width: 50vw;
+            height: 20vw;
+            align-self: center;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 200px rgba(0, 0, 0, 0.14);
+            border-radius: 14px;
+        }
+        
+        .image-border {
+            border-radius: 14px 14px 0px 0px;
+        }
+        
+        .button {
+            background: #FF3366;
+            border-radius: 50px;
+            border: none;
+            align-items: flex-start;
+            width: 250px;
+            height: 50px;
+            box-sizing: border-box;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            color: #FFFFFF;
+            outline: none;
+            cursor: pointer;
+            transition-duration: 0.2s;
+            margin-top: 20px;
+            margin-bottom: 26px;
+        }
+        
+        .button[class*=outline] {
+            border: 1px solid #FF3366;
+            background: none;
+            color: #FF3366;
+        }
+        
+        .button:hover {
+            background: #D92B57;
+        }
+        
+        .button[class*=outline]:hover {
+            background: none;
+        }
+        
+        .description {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: #666666;
+            margin-top: 20px;
+            margin-right: 57px;
+            margin-left: 57px;
+        }
+        
+        .heading {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 150%;
+            text-align: center;
+            color: black;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        @media screen and (min-width: 1500px) {
+            main {
+                margin-right: 25px;
+            }
+            .wrapper {
+                flex-direction: row;
+            }
+        }
