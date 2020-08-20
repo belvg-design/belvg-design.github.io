@@ -23,7 +23,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin: 100px;
+            margin: 14px 14px 0 14px;
         }
         
         aside>div.sidebar>img {
@@ -137,5 +137,6 @@
             }
             .wrapper {
                 flex-direction: row;
+                margin: 20vh 14px 0 14px;
             }
         }
