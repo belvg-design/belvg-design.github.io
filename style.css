@@ -115,6 +115,7 @@
     line-height: var(--text-2-line-height);
     color: var(--main-color);
     text-align: center;
+    margin: 10px;
 }
 
 .section-1 {
@@ -175,6 +176,7 @@
     line-height: var(--text-2-line-height);
     color: var(--white);
     text-align: center;
+    margin: 10px;
 }
 
 .section-2 {
